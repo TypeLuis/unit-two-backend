@@ -21,6 +21,9 @@ app.use(morgan('tiny'))
 app.use(cors()) // makes this talkable through a fetch(localhost URL)
 app.use(express.json()) // converts into json data when needs to
 
+app.get('/', (req, res) => {
+    res.json({ ok: 'ok' })
+})
 
 
 // this means everytime '/user' is used, it'll go to userRoute file
