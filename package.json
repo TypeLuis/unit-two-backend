@@ -20,6 +20,6 @@
     "router": "^1.3.6",
     "rowdy-logger": "^1.0.2",
     "sequelize": "^6.9.0",
-    "sequelize-cli": "^6.3.0"
+    "sequelize-cli": "^6.4.1"
   }
 }
